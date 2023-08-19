@@ -1,0 +1,105 @@
+/* text */
+.text-center {
+    text-align: center;
+}
+
+.text-buyukharf {
+    text-transform: uppercase;
+}
+
+.text-color {
+    background: rgb(11, 34, 42);
+
+}
+
+.heading-small {
+    font-size: 1.35rem;
+}
+
+.heading-medium {
+    font-size: 1.65rem;
+}
+
+.heading-big {
+    font-size: 1.95rem;
+}
+
+
+/* colors */
+.bg-darkblue {
+    background: rgb(4, 4, 46);
+    color: white;
+}
+
+.bg-lightblue {
+    background: rgb(69, 69, 238);
+}
+
+/* container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+/* buttons */
+.btn {
+
+    margin-top: 1.15rem;
+    padding: 0.5rem 0.3rem;
+    border-radius: 8px;
+    letter-spacing: 1px;
+ 
+}
+
+.btn-primary {
+    background: rgb(4, 4, 46);
+
+}
+
+.btn-primary:hover {
+    color: rgb(4, 4, 46);
+    background: white;
+    border: 1px solid rgb(4, 4, 46);
+    border-radius: 8px;
+}
+
+.btn-dark {
+    background: rgb(11, 34, 42);
+
+}
+
+.btn-dark:hover {
+    color: rgb(11, 34, 42);
+    background: white;
+    border: 1px solid rgb(11, 34, 42);
+    border-radius: 8px;
+}
+
+.btn-block {
+    width: 17%;
+    text-align: center;
+
+}
+
+/* forms */
+.form-group{
+    padding: 0.25rem 0;
+
+}
+.form-group label{
+    display: block;
+}
+.zx{
+    max-width: 80%;
+    margin: 0 auto;
+}
+.form-control{
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+     resize: none; 
+     /* yeniden boyutlandırma */
+     border-radius: 10px;
+}
+
+

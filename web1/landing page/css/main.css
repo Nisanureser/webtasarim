@@ -1,0 +1,226 @@
+html{
+    font-family: 'Labrada', serif;  
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+a{
+    text-decoration: none;
+    /* link altındaki yazıyı kaldırdı */
+    color: rgb(250, 245, 245);
+    
+}
+/* navbar section */
+#navbar{
+    color: whitesmoke;
+    display: flex;
+    /* flex yan yana getirdi */
+    justify-content: space-between;
+    /* arasını açtı */
+    padding: 0 1rem;
+}
+#navbar ul{
+    list-style-type: none;
+    /* listedeki noktaları yok etti */
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a{
+    padding: 0.5rem;
+}
+#navbar ul li a:hover{
+    border-radius: 8px;
+    background: white;
+    border: 1px solid rgb(11, 34, 42);
+    color: rgb(11, 34, 42);
+}
+/* home section */
+#home{
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 2px solid rgb(35, 35, 77);
+}
+#home img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+/* #home .name{
+    text-align: center;
+} */
+#home .name h2{
+    margin-bottom: 0.5rem;
+}
+#home .name p{
+    opacity: 0.5;
+    font-style: italic;
+}
+/* #home a{
+    margin-top: 1.15rem;
+    background: rgb(11, 34, 42);
+    padding: 0.5rem 0.3rem ;
+    border-radius: 8px;
+    letter-spacing: 1px;
+}
+#home a:hover {
+    
+    color:rgb(11, 34, 42);
+    background: white;
+    border: 1px solid rgb(11, 34, 42);
+    border-radius: 8px;
+} */
+
+/* takılar */
+#jewelry{
+    color: white;
+    padding: 1rem; 
+}
+#jewelry h3:hover{
+    border-radius: 8px;
+    background: white;
+    border: 1px solid rgb(11, 34, 42);
+    color: rgb(11, 34, 42);
+
+}
+
+#jewelry .items{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#jewelry .items .item  {
+ width: 33%;
+ text-align: center;
+ padding: 0.5rem;
+}
+#jewelry .items .item:hover  {
+    border-radius: 8px;
+    background: white;
+    border: 1px solid rgb(11, 34, 42);
+    color: rgb(11, 34, 42);
+
+ }
+#giyimler{
+    color: #333;
+    padding: 1rem;
+    /* border: 10px solid rgb(11, 34, 42); */
+   
+}
+.giyimler{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-content: space-between;
+}
+.giyimler .Giyim{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    padding: 0.2rem;
+    margin: 0.2rem;
+}
+.giyimler .Giyim .giyim-image{
+
+    margin-right: 0.5rem;
+    position: relative;
+}
+.giyimler .Giyim .giyim-image span{
+    color: white;
+    background: red;
+    border: 1px solid rgb(11, 34, 42); 
+    border-radius: 5px;
+    padding: 0.25rem;
+    position: absolute;
+    left: 0;
+    top: 120px;
+}
+.giyimler .Giyim .giyim-image img{
+    border-radius: 5px;
+}
+.giyimler .Giyim .giyim-image span:hover{
+    color: red;
+    background: white;
+    border: 1px solid rgb(11, 34, 42);    
+}
+.giyimler .Giyim .Giyimbilgi .title{
+    letter-spacing: 1.3px;
+    font-weight: 800;
+    margin-top: 0.25px;
+    font-size: larger;
+    background:rgb(11, 34, 42);
+    color: white;
+    border: 20px solid white;
+    padding: 0.3rem;
+    border-radius: 38px;
+}
+.giyimler .Giyim .Giyimbilgi .description{
+    opacity: 0.5;
+    font-size: medium;
+    align-items: end;
+    padding-left: 20px;
+}
+.giyimler .Giyim .Giyimbilgi .rating{
+    opacity: 0.3;
+    font-size: small;
+    align-items: center;
+    padding-left: 30px;
+    margin-left: 1px;
+}
+/* cantact */
+#contact{
+    color: white;
+    /* margin: 0 auto; */
+    padding: 1rem;
+    
+}
+#contact .zx{
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+
+
+}
+#contact .zx ul{
+    margin-top: 1rem;
+    align-self: center;
+    list-style: none;
+    display: flex;
+}
+#contact .zx ul li a{
+padding: 1rem;
+font-size: 2rem;
+
+}
+#contact .zx ul li a:hover{
+   opacity: 0.5 ;
+}
+#qwert{
+    text-align: center;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+
+  
+}
+#contact{
+    /* height: 403px; */
+    margin: 0.1 auto;
+}
+.fotoekle{
+ 
+    background-image: url("images/indir.png");
+}
+
+
+

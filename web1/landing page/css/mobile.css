@@ -1,0 +1,20 @@
+#navbar{
+    flex-direction: column;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    height: 90px;
+    overflow: hidden;
+    /* eğer taşma yapsaydı taşmayı engelleyip sığdıracaktı */
+
+}
+#jewelry .items{
+    flex-direction: column;
+}
+#jewelry .items .item {
+
+    width: 100%;
+}
+.giyimler{
+    display: flex;
+    flex-direction: column;
+}

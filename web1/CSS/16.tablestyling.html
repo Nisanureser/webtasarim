@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tablestyling</title>
+    <style>
+        table,tr,td,th{
+
+            border: 2px solid rosybrown;
+            border-collapse: collapse;
+            /* collapse tablo birleşitiryo */
+        }
+        table{
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            font-size: x-large;
+        }
+        th,td{
+            padding: 15px;
+        }
+        thead tr{
+            background-color: brown;
+            color: aliceblue;
+        }
+        tbody tr{
+            text-align: center;
+        }
+        tbody tr:nth-child(even){
+            background-color: beige;
+        }
+        tbody tr:hover{
+            background: silver;
+        }
+
+
+
+
+
+
+    </style>
+
+
+
+</head>
+<body>
+    <table class="tablo1">
+        <thead>
+            <tr>
+                <th>ad</th>
+                 <th>bölüm</th>  
+                 <th>maaş</th> 
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>nisa</td>
+                <td>pcmüh</td>
+                <td>15000</td>
+            </tr>
+            <tr>
+                <td>dodo</td>
+                <td>pcmuh</td>
+                <td>10000</td>
+            </tr>
+            <tr>
+                <td>aaaa</td>
+                <td>pcmuh</td>
+                <td>12000</td>
+            </tr>
+
+
+
+        </tbody>
+
+
+
+
+
+
+    </table>
+
+
+
+    
+</body>
+</html>

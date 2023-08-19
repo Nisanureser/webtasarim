@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form-ınput</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" 
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" 
+    crossorigin="anonymous">
+</head>
+<body>
+    <div class="container my-2">
+        <form style="width: 25rem;">
+            <h3 class="text-center bg-secondary text-light pb-1"> Bilgileri Girin</h3>
+            <hr>
+            <div class="form-row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="name">name</label>
+                    <input type="text" name="name " id="name " class="form-control "> 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="surname">surname</label>
+                    <input type="text" name="surname " id="surname " class="form-control "> 
+                </div>
+            </div>
+        </div>
+           
+      
+            <div class="form-group">
+            <label for="e-mail">e-mail</label>
+            <input type="text" e-mail="e-mail " id="e-mail " class="form-control "> 
+            <small class="form-text text-muted">*doldur zorunlu</small>
+        </div>
+            <div class="form-group">
+                <label for="diller">diller </label>
+                <select class="form-control" id="diller ">
+                    <option > ingilizce</option>
+                    <option > türkçe </option>
+                    <option > arapca</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="mesaj ">mesaj </label>
+                <textarea class="form-control" name="mesaj" id="mesaj" rows="5">
+                </textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input 
+                    type="checkbox" 
+                   
+                    id="accept"
+                    class="form-check-input"
+                    >
+                    <label for="accept" class="form-check-text">
+                        sözleşmeyi okudum
+                    </label>
+                </div>
+            </div>
+            <button class="btn btn-secondary btn-block">Gönder </button>
+
+
+        </form>
+
+
+
+
+    </div>
+    
+</body>
+</html>
